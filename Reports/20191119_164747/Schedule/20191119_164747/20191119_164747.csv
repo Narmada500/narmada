@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Schedule,Chrome 77.0.3865.90,,,2019-11-19 16:47:57,2019-11-19 16:48:37,40.586s,FAILED
+,,,,,,,
+Test Cases/Testlogin,Chrome 77.0.3865.90,,,2019-11-19 16:47:57,2019-11-19 16:48:31,33.210s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-11-19 16:47:58,2019-11-19 16:48:07,8.610s,PASSED
+"navigateToUrl(""https://my.500apps.com/#/login"")",Chrome 77.0.3865.90,,,2019-11-19 16:48:07,2019-11-19 16:48:13,6.816s,PASSED
+maximizeWindow(),Chrome 77.0.3865.90,,,2019-11-19 16:48:13,2019-11-19 16:48:14,0.237s,PASSED
+"click(findTestObject(""Object Repository/Testobj/Page_Login/form_Please enter your Email id            _2faecd""))",Chrome 77.0.3865.90,,,2019-11-19 16:48:14,2019-11-19 16:48:17,2.979s,PASSED
+"setText(findTestObject(""Object Repository/Testobj/Page_Login/input_Login_email""), ""narmada+billing@invox.com"")",Chrome 77.0.3865.90,,,2019-11-19 16:48:17,2019-11-19 16:48:18,0.979s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Testobj/Page_Login/input_Login_password""), ""XFu5psyYm8gWjWMt8cB1OA=="")",Chrome 77.0.3865.90,,,2019-11-19 16:48:18,2019-11-19 16:48:19,0.945s,PASSED
+"click(findTestObject(""Object Repository/Testobj/Page_Login/button_LOGIN""))",Chrome 77.0.3865.90,,,2019-11-19 16:48:19,2019-11-19 16:48:19,0.606s,PASSED
+"click(findTestObject(""Object Repository/Testobj/Page_Portal Home/a_Schedulely""))",Chrome 77.0.3865.90,,,2019-11-19 16:48:19,2019-11-19 16:48:28,9.074s,PASSED
+"navigateToUrl(""https://schedule.500apps.com/#/dashboard/my-events/"")",Chrome 77.0.3865.90,,,2019-11-19 16:48:28,2019-11-19 16:48:31,2.408s,PASSED
+,,,,,,,
+Test Cases/Book Appointment,Chrome 77.0.3865.90,,,2019-11-19 16:48:31,2019-11-19 16:48:37,6.477s,FAILED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-11-19 16:48:31,2019-11-19 16:48:32,1.369s,PASSED
+"navigateToUrl(""https://my.500apps.com/a/#/login"")",Chrome 77.0.3865.90,,,2019-11-19 16:48:32,2019-11-19 16:48:37,4.171s,PASSED
+maximizeWindow(),Chrome 77.0.3865.90,,,2019-11-19 16:48:37,2019-11-19 16:48:37,0.147s,PASSED
+"setText(findTestObject(""Object Repository/Schedule/Page_Login/input_Login_email""), ""narmada+billing@invox.com"")",Chrome 77.0.3865.90,,,2019-11-19 16:48:37,2019-11-19 16:48:37,0.427s,FAILED
